@@ -1,0 +1,48 @@
+{
+  "name": "bank",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "ajax-picker": "^1.5.2",
+    "axios": "^0.18.0",
+    "minirefresh": "^2.0.2",
+    "qs": "^6.7.0",
+    "vant": "^1.6.16",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.6.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "postcss-pxtorem": "^4.0.1",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-pxtorem": {
+        "rootValue": 16,
+        "unitPrecision": 2,
+        "propList": [
+          "*",
+          "!font*",
+          "!line*"
+        ],
+        "selectorBlackList": [],
+        "minPixelValue": 2
+      }
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
